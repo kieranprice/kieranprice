@@ -1,0 +1,106 @@
+body {
+  background: white;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: arial;
+  color: black;
+}
+
+nav {
+  padding-top: 2em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0em 1em;
+}
+
+p {
+  position: absolute;
+  z-index: 1;
+  color: black;
+  font-family: arial;
+  left: 3%;
+  font-size: 1em;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+.one {
+  background-image: url("https://scontent-lhr3-1.cdninstagram.com/vp/33831ce4ff46d4a1f9af8c90315c150c/5D7CAE75/t51.2885-15/e35/51957886_1511304869002565_8736958353739909235_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.two {
+  background-image: url("https://scontent-lhr3-1.cdninstagram.com/vp/51ca90c007b5f3044d0db1ebf6da3fa0/5D6359EC/t51.2885-15/e35/51405677_311811423014688_5913096558212013778_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three {
+  background-image: url("https://scontent-lhr3-1.cdninstagram.com/vp/eace78941264e30fe1e01e8c5c686110/5D96D00E/t51.2885-15/e35/50767933_245724926376563_5028587240152603064_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.four {
+  background-image: url("https://scontent-lhr3-1.cdninstagram.com/vp/fb42b2a4d7081a5f3641c3cd2650ee92/5D8038C0/t51.2885-15/e35/51917131_522498984905848_6454698543562460961_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 50%;
+  position: relative;
+  height: 75vh;
+  flex-direction: row;
+  left: 25%;
+  z-index: 0;
+  
+  
+}
+
+.container > div {
+  
+
+ 
+  position: relative;
+  height: 100%;
+  border-radius:1em;
+  
+  
+}
+
+.initial {
+  
+  opacity: 0.6;
+  height: 100%;
+  width: 25%;
+  position: relative;
+}
+
+
+
+.expanded {
+  opacity: 1;
+  height: 100%;
+  width: 300%;
+  position: relative;
+
+}
+
+* {
+  transition: 1s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+
